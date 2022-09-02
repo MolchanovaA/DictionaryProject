@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SearchForm from "./SearchForm";
+import axios from "axios";
 
 export default function Dictionary() {
   let [dictionaryWord, setDictionaryWord] = useState();
@@ -7,8 +8,14 @@ export default function Dictionary() {
   function upKeyword(value) {
     setDictionaryWord(value);
   }
+  function showSearchResult(res) {
+    console.log(res, "test");
+  }
 
-  console.log(dictionaryWord, "dictionary main");
+  if (dictionaryWord) {
+    let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${dictionaryWord}`;
+    axios.get(url).then(showSearchResult);
+  }
   return (
     <section>
       <h2>This is Dictionary</h2>
