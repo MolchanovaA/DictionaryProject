@@ -1,5 +1,6 @@
 import React from "react";
 import Definition from "./Definition";
+import "./Description.css";
 
 export default function Description({ meaning }) {
   // console.log(meaning.definitions);
@@ -8,7 +9,7 @@ export default function Description({ meaning }) {
     return <Definition definition={item} key={i} />;
   }
   return (
-    <div>
+    <div className="wordDescriptionByPartOfSpeech">
       <h4>{meaning.partOfSpeech}</h4>
       {arrayOfDefinitions.map(showListOfDEfinitions)}
     </div>

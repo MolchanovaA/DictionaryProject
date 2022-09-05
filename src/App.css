@@ -1,0 +1,13 @@
+:root {
+  --mainBackgroundColor: #b06a3c58;
+  --whiteColor: #e7eaef;
+  --ligthGrassGreen: #8b9d77;
+  --deepGreen: #37745b;
+  --blue: #217074;
+  --FontFamilyMain: "Quicksand", sans-serif;
+  --FontFamilyKeyWord: "Fredoka One", sans-serif;
+}
+body {
+  background-color: var(--mainBackgroundColor);
+  padding: 20px;
+}

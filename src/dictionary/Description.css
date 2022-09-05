@@ -1,0 +1,15 @@
+.wordDescriptionByPartOfSpeech h4 {
+  font-weight: 800;
+  border-bottom: 2px solid var(--deepGreen);
+  position: relative;
+}
+.wordDescriptionByPartOfSpeech h4::before {
+  content: "";
+  display: block;
+  border-bottom: 2px solid var(--ligthGrassGreen);
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

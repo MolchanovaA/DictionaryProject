@@ -1,0 +1,12 @@
+.wordMainDescription .keyWord {
+  font-family: var(--FontFamilyKeyWord);
+  font-size: 60px;
+  color: var(--blue);
+}
+.keyWord::first-letter {
+  color: var(--whiteColor);
+  font-size: 70px;
+  text-transform: capitalize;
+  text-shadow: 9px 4px 2px var(--deepGreen);
+  padding-right: 5px;
+}
