@@ -7,6 +7,7 @@ export default function Footer() {
       <a
         rel="noopener noreferrer"
         href="https://github.com/MolchanovaA/DictionaryProject"
+        target="_blank"
       >
         Coded by Alina
       </a>
