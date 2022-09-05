@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Result from "./Result";
+import Footer from "./Footer";
 import axios from "axios";
 import "./Dictionary.css";
 
@@ -39,6 +40,7 @@ export default function SearchForm() {
         go to
         <br /> Search
       </a>
+      <Footer />
     </div>
   );
 }

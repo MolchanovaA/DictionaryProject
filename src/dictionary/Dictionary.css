@@ -1,6 +1,6 @@
 .dictionaryMainContainer {
   font-family: var(--FontFamilyMain);
-  padding: 50px;
+  padding: 30px;
   border: 4px solid var(--deepGreen);
   border-radius: 3px;
   position: relative;
