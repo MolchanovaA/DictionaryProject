@@ -37,6 +37,7 @@
   display: block;
   background-color: var(--whiteColor);
   opacity: 0.4;
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
