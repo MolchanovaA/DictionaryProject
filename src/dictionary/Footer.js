@@ -6,8 +6,8 @@ export default function Footer() {
     <p className="text-center footer">
       <a
         rel="noopener noreferrer"
-        href="https://github.com/MolchanovaA/DictionaryProject"
         target="_blank"
+        href="https://github.com/MolchanovaA/DictionaryProject"
       >
         Coded by Alina
       </a>

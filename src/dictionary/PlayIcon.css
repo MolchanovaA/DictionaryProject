@@ -1,0 +1,10 @@
+.playIconContainer i {
+  transition: all 1s ease-in-out;
+  color: var(--blue);
+}
+
+.playIconContainer:hover i {
+  cursor: pointer;
+  transform: scale(1.1);
+  text-shadow: 5px 4px 1px var(--deepGreen);
+}

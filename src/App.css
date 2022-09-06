@@ -1,5 +1,5 @@
 :root {
-  --mainBackgroundColor: #b06a3c58;
+  --mainBackgroundColor: #e6b18e58;
   --whiteColor: #e7eaef;
   --ligthGrassGreen: #8b9d77;
   --deepGreen: #37745b;
@@ -10,4 +10,8 @@
 body {
   background-color: var(--mainBackgroundColor);
   padding: 20px;
+}
+.App {
+  max-width: 960px;
+  margin: 0 auto;
 }

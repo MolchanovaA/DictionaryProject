@@ -1,0 +1,53 @@
+.picsMainContainer {
+  margin: 0 auto;
+}
+.picsMainContainer ul {
+  padding: 0;
+}
+.picsMainContainer li {
+  list-style: none;
+  border: 1px solid var(--blue);
+  padding: 5px;
+  background-color: var(--whiteColor);
+  margin: 15px;
+  border-radius: 3px;
+  display: flex;
+  max-width: 150px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.picsMainContainer img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.picsMainContainer .pic:before {
+  content: attr(data-content);
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  color: rgb(8, 8, 8);
+  display: block;
+  background-color: var(--whiteColor);
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.picsMainContainer .picContainer:hover .pic:before {
+  z-index: 1;
+}
+
+.picContainer span {
+  color: var(--testColor);
+}

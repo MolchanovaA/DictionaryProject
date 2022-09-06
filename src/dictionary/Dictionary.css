@@ -39,6 +39,7 @@ a.upButton {
   position: fixed;
   right: 50px;
   top: 200px;
+  z-index: 5;
   opacity: 0.5;
 }
 
